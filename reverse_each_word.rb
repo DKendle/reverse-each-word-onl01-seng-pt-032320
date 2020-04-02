@@ -10,6 +10,6 @@
 def reverse_each_word(sentence)
   sentence.split.collect do |word|
     puts "#{word.reverse}"
-    "#{word.join(" ")}"
   end
+  #{word.join(" ")}
 end
